@@ -1,0 +1,372 @@
+1648700342827	geckodriver	INFO	Listening on 127.0.0.1:64105
+1648700475282	geckodriver	INFO	Listening on 127.0.0.1:64132
+1648700513999	geckodriver	INFO	Listening on 127.0.0.1:64143
+1648700846058	geckodriver	INFO	Listening on 127.0.0.1:64165
+1648701528437	geckodriver	INFO	Listening on 127.0.0.1:64398
+1648702028746	geckodriver	INFO	Listening on 127.0.0.1:62299
+1648702203977	geckodriver	INFO	Listening on 127.0.0.1:62414
+1648702207014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62415" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofileNBxMJR"
+1648702207427	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofileNBxMJR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62415/devtools/browser/eff858c6-fdaf-4b71-943a-7b5340fa1dd4
+1648702209528	Marionette	INFO	Listening on port 62420
+1648702209721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648702212170	Marionette	INFO	Stopped listening on port 62420
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\balkrishna.oli\AppData\Local\Temp\rust_mozprofileNBxMJR\protections.sqlite
+1648702246202	geckodriver	INFO	Listening on 127.0.0.1:62482
+1648702249273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62483" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofiletuKP8N"
+1648702249632	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofiletuKP8N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62483/devtools/browser/5a39068d-b790-4a8f-ad1a-29f68a452beb
+1648702251751	Marionette	INFO	Listening on port 62488
+1648702252333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648702254849	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483659/domwalker23, type pick failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\npick@resource://devtools/client/fronts/walker.js:444:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n#onInspectorFrontAvailable@resource://devtools/client/inspector/node-picker.js:71:18\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483659/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods1648703247736	Marionette	INFO	Stopped listening on port 62625
+!!! error running onStopped callback: TypeError: callback is not a function
+s/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+[Child 11012, MediaDecoderStateMachine #1] WARNING: 20b382053c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+[Child 11012, MediaDecoderStateMachine #1] WARNING: 20b31f36580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648703252292	Marionette	INFO	Stopped listening on port 62488
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+ will be ignored for this session
+1648703108038	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648703249928	Marionette	INFO	Stopped listening on port 62919
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+150082	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofilecOXbL5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63008/devtools/browser/e9ef904c-0b7e-4199-9623-9807c766b56d
+1648703152235	Marionette	INFO	Listening on port 63014
+1648703152417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648703155297	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648703251172	Marionette	INFO	Stopped listening on port 63014
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "63099" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofileDS5r9e"
+1648703212586	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofileDS5r9e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63099/devtools/browser/0865ddf3-9728-48f1-9dc3-fc513147fcf3
+1648703214998	Marionette	INFO	Listening on port 63109
+1648703215407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648703217868	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648703244828	Marionette	INFO	Stopped listening on port 63109
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648706911841	geckodriver	INFO	Listening on 127.0.0.1:55869
+1648706914900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55870" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofileiacnDv"
+1648706915316	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofileiacnDv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55870/devtools/browser/dc9d8d48-47f4-4690-9259-4347541d273e
+1648706917706	Marionette	INFO	Listening on port 55875
+1648706918093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648706920956	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648707385009	Marionette	INFO	Stopped listening on port 55875
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+arch.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55969/devtools/browser/4127e385-0844-409b-b089-c6d7451fcc45
+1648707009404	Marionette	INFO	Listening on port 55975
+1648707009545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648707012041	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648707385906	Marionette	INFO	Stopped listening on port 55975
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+FO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofiledwYaLY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56051/devtools/browser/b6c0046d-a3ae-48b3-814b-6d4aed5d7547
+1648707019730	Marionette	INFO	Listening on port 56062
+1648707019911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648707022504	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Child 11400, MediaDecoderStateMachine #1] WARNING: 240806c73c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+1648707388480	Marionette	INFO	Stopped listening on port 56062
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "56180" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofileforYN1"
+1648707154540	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofileforYN1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56180/devtools/browser/b29d90eb-48de-4bee-a02d-6f23117a33a3
+1648707156949	Marionette	INFO	Listening on port 56187
+1648707157370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648707160206	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648707391963	Marionette	INFO	Stopped listening on port 56187
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648707408001	geckodriver	INFO	Listening on 127.0.0.1:56396
+1648707411086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56397" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofileqS8GVQ"
+1648707411437	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofileqS8GVQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56397/devtools/browser/1266aa09-96fb-4b27-b4e2-924830ac991f
+1648707413387	Marionette	INFO	Listening on port 56403
+1648707413783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648707416095	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648708049312	Marionette	INFO	Stopped listening on port 56403
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+tools/browser/2ece1664-c1f9-4c1e-8ba2-11220ecf73e0
+1648707986405	Marionette	INFO	Listening on port 56582
+1648707986728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1648707996024	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648708048425	Marionette	INFO	Stopped listening on port 56582
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+:56676/devtools/browser/33f62dbf-dd72-43aa-857e-39ba21b95e03
+1648708044600	Marionette	INFO	Listening on port 56681
+1648708044837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1648708057009	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648708126782	Marionette	INFO	Stopped listening on port 56681
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1648708130498	geckodriver	INFO	Listening on 127.0.0.1:56797
+1648708133584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56798" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofilegtPesR"
+1648708133921	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofilegtPesR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56798/devtools/browser/b17784cd-3ca3-4b8a-9e78-124f750b118f
+1648708135821	Marionette	INFO	Listening on port 56803
+1648708136272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648708138699	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648708144259	Marionette	INFO	Stopped listening on port 56803
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648708244063	geckodriver	INFO	Listening on 127.0.0.1:56895
+1648708247131	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56896" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofile3g5bgm"
+1648708247472	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofile3g5bgm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56896/devtools/browser/17aa7f3f-c57e-40e0-a29f-4ad3d1f0adaa
+1648708249670	Marionette	INFO	Listening on port 56901
+1648708249816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648708252648	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648708362972	Marionette	INFO	Stopped listening on port 56901
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+ser/819793e6-a659-43d0-8b92-11221447f7b9
+1648708361848	Marionette	INFO	Listening on port 57007
+1648708362183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648708365224	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Child 13376, MediaDecoderStateMachine #1] WARNING: 2486f2faba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/co1648708715833	Marionette	INFO	Stopped listening on port 57117
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ole.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+console.warn: "Failed to enumerate CacheStorage for host https://accounts.google.com: TypeError: caches is null"
+console.warn: "Failed to enumerate localStorage for host https://accounts.google.com: [Exception... \"Component is not available\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: resource://devtools/server/actors/storage.js :: populateStoresForHost :: line 1335\"  data: no]"
+console.warn: "Failed to enumerate sessionStorage for host https://accounts.google.com: [Exception... \"Component is not available\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: resource://devtools/server/actors/storage.js :: populateStoresForHost :: line 1335\"  data: no]"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648708715161	Marionette	INFO	Stopped listening on port 57007
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+arch.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57241/devtools/browser/c79ff7ad-080a-40d7-ba4a-eba2038dff1b
+1648708610420	Marionette	INFO	Listening on port 57246
+1648708610831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648708613739	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648708716826	Marionette	INFO	Stopped listening on port 57246
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1648708732010	geckodriver	INFO	Listening on 127.0.0.1:57362
+1648708735092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57363" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofilegcKNut"
+1648708735425	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofilegcKNut\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57363/devtools/browser/97290a49-52f9-454f-8660-a3cd84ffb128
+1648708737597	Marionette	INFO	Listening on port 57369
+1648708737790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648708740741	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648708777401	Marionette	INFO	Stopped listening on port 57369
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648708778397	geckodriver	INFO	Listening on 127.0.0.1:57448
+1648708781462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57449" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofileDktKgc"
+1648708781800	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofileDktKgc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57449/devtools/browser/a1552671-62aa-4c49-b81e-ed7e319667cf
+1648708783776	Marionette	INFO	Listening on port 57454
+1648708784145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648708786538	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648708822340	Marionette	INFO	Stopped listening on port 57454
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648708823709	geckodriver	INFO	Listening on 127.0.0.1:57546
+1648708826797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57547" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofileryH9T6"
+1648708827125	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofileryH9T6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57547/devtools/browser/f5d34ecc-d22a-49c3-a1d9-ac9cbf2f458f
+1648708829204	Marionette	INFO	Listening on port 57552
+1648708829486	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648708835804	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648708936382	Marionette	INFO	Stopped listening on port 57552
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648708938284	geckodriver	INFO	Listening on 127.0.0.1:57652
+1648708941364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57653" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofileEqnJFZ"
+1648708941684	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofileEqnJFZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57653/devtools/browser/5fbfa22c-56b5-42b5-83a8-a120e59901a4
+1648708943586	Marionette	INFO	Listening on port 57658
+1648708944045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648708963173	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648711284053	Marionette	INFO	Stopped listening on port 57658
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1648716854152	geckodriver	INFO	Listening on 127.0.0.1:50905
+1648716857233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50906" "-no-remote" "-profile" "C:\\Users\\BALKRI~1.OLI\\AppData\\Local\\Temp\\rust_mozprofilePe4mg0"
+1648716857648	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofilePe4mg0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50906/devtools/browser/cd82dcbc-0e80-48d3-a9cf-39d8e90e80f6
+1648716859736	Marionette	INFO	Listening on port 50912
+1648716859942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648716862485	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648717135743	Marionette	INFO	Stopped listening on port 50912
+ew NotFoundError("Could not open the file at C:\\Users\\balkrishna.oli\\AppData\\Local\\Temp\\rust_mozprofilekrJ0ka\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51094/devtools/browser/3d350107-9e1c-4b81-aa8b-39fdd8f57749
+1648716993798	Marionette	INFO	Listening on port 51103
+1648716994165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648716997568	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648717149759	Marionette	INFO	Stopped listening on port 51103
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
